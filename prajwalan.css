@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap');
+
+body {
+  background-color: rgb(8, 8, 8);
+  font-family:'Inter';
+  margin: 0px;
+  display: flex;
+    flex-direction: column
+}
+
+.main {
+  height: 100vh;
+  width: 100hv;
+  border-color: none;
+  top: -130px;
+  background: url(./images/logo/Untitled\ \(1440\ ×\ 1024\ px\)\ \(7\)\ 1.png);
+  border-radius: 0px 0px 80px 80px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 0px 0px 80px 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  font-size: 1.5vw;
+  padding: 0 2rem;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  filter: invert(100%);
+  max-width: 55px;
+  height: auto;
+}
+.logo .gcoea{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+text-align: center;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  padding: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.burger {
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 2rem;
+  height: 0.3rem;
+  margin: 0.5rem;
+}
+.Prajwalan2k22{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Prajwalan2k22 .prajwalan2k22img img{
+  position: relative;
+  top:80px;
+  max-width: 100%;
+  height: auto;
+}
+.Title{
+  position:relative;
+  color: #FFFFFF;
+  top: -50px;
+  font-weight: 500;
+font-size: 2vw;
+text-align: center;
+letter-spacing: 0.01em;
+
+}
+.Prajwalan2k22 .prajwalanlogo img{
+  position:relative;
+  max-height: 300px;
+  object-fit: cover;
+  width: auto;
+  top: -30px;
+}
+.dash{
+  
+position: relative;
+width: 90%;
+
+border: 2px solid #FFFFFF;
+}
+.aboutmedia{
+  position: relative;
+  display: flex;
+  width: 90%;
+  top: 30px;
+  background: url(./images/logo/Untitled\ \(1440\ ×\ 1024\ px\)\ \(7\)\ 1.png) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-self: center;
+  align-content: center;
+  background-blend-mode:color-burn;
+  padding:2.5%;
+  border-radius: 60px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.aboutcontain{
+  position: relative;
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 33px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+.about{
+  font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #92C6FF;
+}
+.mediatital{
+  padding-top: 30px;
+  color: #92C6FF;
+  font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.01em;
+}
+.mediaimg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mediaI{
+  padding: 30px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.team{
+  margin: 30px;
+}
+.Teaams{
+  margin: 30px;
+}
+.teams{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.teams img{
+      max-width: 200px;
+      height: auto;
+      width: 225px;
+      background: rgba(66, 71, 117, 0.32);
+    border: 2px solid #FFFFFF;
+    display: flex;
+    border-radius: 50%;
+    margin: 40px;
+}
+#registration-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#registration-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#registration-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background: url(./images/logo/Untitled\ \(1440\ ×\ 1024\ px\)\ \(7\)\ 1.png);
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  width:500px;
+  height: auto;
+  float: left;
+}
+
+.slide img {
+  width:500px;
+  height: auto;
+}
+
+.slide-content {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.01em;
+  color: white;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
